@@ -1,5 +1,5 @@
 function calculadora(){
-    const operacao = prompt("Escolha uma operação:\n \n 1 - Soma (+)\n 2 - Subtração (-)\n 3 - Multiplicação (*)\n 4 - Divisão Real (/)\n 5 - Divisão Inteira (%)\n 6 - Potenciação (**)");
+    const operacao = number(prompt("Escolha uma operação:\n \n 1 - Soma (+)\n 2 - Subtração (-)\n 3 - Multiplicação (*)\n 4 - Divisão Real (/)\n 5 - Divisão Inteira (%)\n 6 - Potenciação (**)"));
 
     if(!operacao || !operacao >= 7){
         alert("Operação inválida!")
